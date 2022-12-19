@@ -47,6 +47,7 @@ a {
 
 .main {
     text-align: center;
+    padding: 45px;
 }
 
 .info {
@@ -72,4 +73,24 @@ a {
 .luna {
     height: 300px;
     width: 300px;
+}
+
+.quote-block {
+    background: #E5E7EB;
+}
+
+.quote {
+    height: 300px;
+    width: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 1em;
+    border-radius: 1em;
+}
+
+.quote figcaption, .quote blockquote {
+    margin: 1em;
 }
