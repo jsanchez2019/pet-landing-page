@@ -14,11 +14,13 @@
 .header {
     display: flex;
     justify-content: space-between;
+    background: #1F2937;
 }
 
 .logo {
     max-height: 100px;
     margin-bottom: 10px;
+    background-color: #1F2937;
 }
 
 .nav-list{
@@ -33,7 +35,9 @@ li {
 
 a {
     text-decoration: none;
-    color: black;
+    color: #E5E7EB;
+    color: 18px;
+
 }
 
 .header-information {
@@ -41,11 +45,29 @@ a {
     justify-content: space-around;
     align-items: center;
     height: 310px;
+    background: #1F2937;
+}
+
+h1 {
+    color: #F9FAF8;
+    font-size: 48px;
 }
 
 .header-content {
-    padding: 15px;
-    
+    padding: 20px;
+}
+
+.header-content p {
+    color: #E5E7EB;
+}
+
+.header-content button {
+    margin-top: 15px;
+    background-color: #3882F6;
+    color: white;
+    padding: 5px;
+    width: 70px;
+    border-radius: 10%;
 }
 
 .main {
@@ -53,37 +75,49 @@ a {
     padding: 45px;
 }
 
+h2 {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: bolder;
+}
+
 .info {
     display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+    justify-content: center;
+    gap: 52px;
 }
 
 .image-text {
     max-width: 300px;
+    margin-top: 15px;
+    margin-bottom: 20px;
 }
 
 .cosmos {
-    height: 300px;
-    width: 300px;
+    max-width: 100%;
+    height: auto;
+    border-radius: 15%;
 }
 
 .orion {
-    height: 300px;
-    width: 300px;
+    max-width: 100%;
+    height: auto;
+    border-radius: 15%;
 }
 
 .luna {
-    height: 300px;
-    width: 300px;
+    max-width: 100%;
+    height: auto;
+    border-radius: 15%;
 }
 
 .quote-block {
     background: #E5E7EB;
+    height: 300px;
 }
 
 .quote {
-    height: 300px;
+    height: 250px;
     width: 800px;
     display: flex;
     flex-wrap: wrap;
