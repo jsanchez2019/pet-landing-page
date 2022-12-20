@@ -1,12 +1,15 @@
 * {
     outline: 2px solid red;
-}
-
-.container {
     padding: 0;
     margin:0;
     box-sizing: border-box;
-}
+} 
+
+/* .container {
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+} */
 
 .header {
     display: flex;
@@ -93,4 +96,29 @@ a {
 
 .quote figcaption, .quote blockquote {
     margin: 1em;
+}
+
+.sign-up-box  {
+    height: 200px;
+    width: 800px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+    background:#3882F6;
+    color: white;
+}
+
+.sign-up-text {
+    line-height: normal;
+}
+
+
+footer {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #1F2937;
+    color: white;
 }
