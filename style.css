@@ -1,5 +1,5 @@
 * {
-    outline: 2px solid red;
+    /* outline: 2px solid red; */
     padding: 0;
     margin:0;
     box-sizing: border-box;
@@ -66,7 +66,7 @@ h1 {
     background-color: #3882F6;
     color: white;
     padding: 5px;
-    width: 70px;
+    width: 100px;
     border-radius: 10%;
 }
 
@@ -117,7 +117,7 @@ h2 {
 }
 
 .quote {
-    height: 250px;
+    height: 260px;
     width: 800px;
     display: flex;
     flex-wrap: wrap;
@@ -132,8 +132,24 @@ h2 {
     margin: 1em;
 }
 
+blockquote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+}
+
+figcaption {
+    font-size: 20px;
+}
+
+.sign-up-block {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
 .sign-up-box  {
-    height: 200px;
+    height: 150px;
     width: 800px;
     display: flex;
     justify-content: space-around;
@@ -144,7 +160,21 @@ h2 {
 }
 
 .sign-up-text {
-    line-height: normal;
+    line-height: 1.6;
+}
+
+
+.final-call {
+    font-weight: bold;
+}
+
+.sign-up-button button {
+    background-color: #3882F6;
+    color: white;
+    padding: 5px;
+    width: 100px;
+    border-radius: 10%;
+    border: 2px solid white;
 }
 
 
