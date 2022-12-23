@@ -5,16 +5,11 @@
     box-sizing: border-box;
 } 
 
-/* .container {
-    padding: 0;
-    margin:0;
-    box-sizing: border-box;
-} */
-
 .header {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     background: #1F2937;
+    gap: 600px;
 }
 
 .logo {
@@ -22,11 +17,13 @@
     margin-bottom: 10px;
     background-color: #1F2937;
     width: 120px;
+    /* margin-left: 100px; */
 }
 
 .nav-list{
     display: flex;
     justify-content: space-between;
+    /* margin-right: 80px; */
 }
 
 li {
